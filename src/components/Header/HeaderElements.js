@@ -2,33 +2,42 @@ import styled from 'styled-components';
 
 const headerBG = "#000";
 const brandColor = "#fff";
-const pageNameColor = "#aaa";
+const NavBarColor = "#fff";
 
 export const HeaderWarp = styled.div`
 background: ${headerBG};
 padding: 0 0 0 10px;
 display: flex;
-height: 10%;
+height: 10vh;
 margin: 0px;
 align-items: center;
-//line-height: 1.25;
-//justify-content: center;
-//max-height: 40px;
-//text-align: center;
+width: 100%;
+justify-content: space-between;
 `;
 
 export const Brand = styled.div`
-font-family: "Arial Black";
-font-size: 16px;
-color: ${brandColor};
-margin-left: 2rem;
-//line-height: inherit;
-//vertical-align: bottom;
+display: flex;
+align-items: center;
+margin-left: 3rem;
 `;
 
-export const PageName = styled.div`
-color: ${pageNameColor};
+export const BusinessName = styled.div`
+font-family: "Arial Black";
+font-size: 25px;
+color: ${brandColor};
 margin-left: 1rem;
-//horizontal-align: right;
-//text-align: center;
+
 `;
+
+export const NavBar = styled.div`
+color: ${NavBarColor};
+display: flex;
+margin-right: 3rem;
+weight: 50%;
+`;
+
+export const NavItem = styled.div`
+font-size: 20px;
+margin-right: 2rem;
+`;
+

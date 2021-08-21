@@ -1,8 +1,10 @@
-import { SiDatadog } from 'react-icons/si';
+import { FcCloseUpMode } from 'react-icons/fc';
 import {
     HeaderWarp,
-    Brand,
-    PageName
+    BusinessName,
+    NavBar,
+    NavItem,
+    Brand
 } from './HeaderElements';
 
 const Header = () => {
@@ -10,12 +12,15 @@ const Header = () => {
     return (
         
             <HeaderWarp>
-                <SiDatadog style={{
-                            color: '#fff',
-                            fontSize: '30px',
-                        }} />
-                <Brand>BOSTON BAY HOTEL</Brand>
-                <PageName>Home About Careers Contact</PageName>
+                <Brand>
+                    <FcCloseUpMode style={{ color: '#fff', fontSize: '50px' }} />
+                    <BusinessName>ABC COMPANY</BusinessName>
+                </Brand>
+                <NavBar>
+                    <NavItem>Home</NavItem>
+                    <NavItem>About</NavItem>
+                    <NavItem>Contact</NavItem>
+               </NavBar>
             </HeaderWarp>
         
     )
