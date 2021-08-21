@@ -1,4 +1,5 @@
 import { FcCloseUpMode } from 'react-icons/fc';
+import { animateScroll as scroll } from 'react-scroll';
 import {
     HeaderWarp,
     BusinessName,
@@ -7,17 +8,19 @@ import {
     Brand
 } from './HeaderElements';
 
-const Header = () => {
+const toTop = () => {
+    scroll.scrollToTop();
+  };
 
+const Header = () => {
     return (
-        
             <HeaderWarp>
-                <Brand>
+                <Brand onClick={toTop}>
                     <FcCloseUpMode style={{ color: '#fff', fontSize: '50px' }} />
                     <BusinessName>ABC COMPANY</BusinessName>
                 </Brand>
                 <NavBar>
-                    <NavItem>Home</NavItem>
+                    <NavItem onClick={toTop}>Home</NavItem>
                     <NavItem>About</NavItem>
                     <NavItem>Contact</NavItem>
                </NavBar>
