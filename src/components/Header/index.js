@@ -16,7 +16,7 @@ const Header = () => {
     return (
             <HeaderWarp>
                 <Brand onClick={toTop}>
-                    <FcCloseUpMode style={{ color: '#fff', fontSize: '50px' }} />
+                    <FcCloseUpMode style={{ color: '#fff', fontSize: '5vw' }} />
                     <BusinessName>ABC COMPANY</BusinessName>
                 </Brand>
                 <NavBar>
