@@ -25,6 +25,8 @@ top: 25vw;
 color: #000;
 font-size: 8vw;
 font-family: "Arial Black";
+
+@media screen and (max-width: 800px) { font-size: 7vh; top: 25vh; text-align: center}
 `;
 
 export const BusinessSlogan = styled.div`
@@ -34,8 +36,17 @@ top: 35vw;
 //margin-top: 1vw;
 color: #000;
 font-size: 4vw;
+
+@media screen and (max-width: 800px) { font-size: 4vh; top: 50vh; text-align: center}
 `;
 
 export const WelcomeImage = styled.img`
 width: 100%;
+
+@media screen and (max-width: 800px) { display: none; }
+`;
+
+export const WelcomeImageMobile = styled.img`
+width: 100%;
+@media screen and (min-width: 801px) { display: none; }
 `;

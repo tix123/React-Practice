@@ -6,7 +6,7 @@ import Welcome from '../components/Welcome';
 const ReservationsPage = () => (
     <>
         <Header />
-        <Welcome/>
+        <Welcome />
     </>
 );
 
