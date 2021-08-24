@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Welcome from '../components/Welcome';
 import About from '../components/About';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const ReservationsPage = () => (
     <>
@@ -11,6 +12,7 @@ const ReservationsPage = () => (
         <Welcome />
         <About />
         <Contact />
+        <Footer />
     </>
 );
 
