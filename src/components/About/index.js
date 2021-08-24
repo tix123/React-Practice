@@ -14,7 +14,7 @@ const About = () => {
     <>
         <SectionWarp>
             <TextContainer>
-                <TextTitle>About ABC Company</TextTitle>
+                <TextTitle>About</TextTitle>
                 <TextContent>ABC Company is global trading company who import and export variety product, such as foods, electronics, vehicles, etc. </TextContent>
             </TextContainer>
             

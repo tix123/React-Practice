@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SectionWarp = styled.div`
 display: flex;
-background-color: #2d6a4f;
+background-color: #7f5539;
 justify-content: space-between;
 padding: 5vw;
 
@@ -16,7 +16,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 
-@media screen and (max-width: 800px) { width: 100%; margin-bottom: 2vh; }
+@media screen and (max-width: 800px) { width: 100%; }
 `;
 
 export const TextTitle = styled.div`
@@ -39,7 +39,7 @@ font-size: 2vw;
 export const PictureContainer = styled.div`
 width: 600px;
 
-@media screen and (max-width: 800px) { width: 100% }
+@media screen and (max-width: 800px) { width: 100%; margin-bottom: 2vh; }
 `;
 
 export const Picture = styled.img`
