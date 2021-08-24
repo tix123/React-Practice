@@ -13,6 +13,7 @@ position: fixed;
 top: 0;
 right: 0;
 left: 0;
+z-index: 1;
 
 @media screen and (max-width: 800px) { height: 5vh; }
 
@@ -48,4 +49,5 @@ cursor: pointer;
 
 @media screen and (max-width: 800px) { font-size: 1.5vh; }
 `;
+
 

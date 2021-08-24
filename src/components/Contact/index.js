@@ -13,7 +13,7 @@ import {
 const Contact = () => {
     return(
     <>
-        <SectionWarp>
+        <SectionWarp name='contact'>
 
             <PictureContainer>
                 <Picture src={BusinessMap}/>

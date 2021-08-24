@@ -1,16 +1,20 @@
 import { FcCloseUpMode } from 'react-icons/fc';
 import { animateScroll as scroll } from 'react-scroll';
+
 import {
     HeaderWarp,
     BusinessName,
     NavBar,
     NavItem,
-    Brand
+    Brand,
+
 } from './HeaderElements';
 
 const toTop = () => {
     scroll.scrollToTop();
   };
+
+
 
 const Header = () => {
     return (
@@ -21,8 +25,9 @@ const Header = () => {
                 </Brand>
                 <NavBar>
                     <NavItem onClick={toTop}>Home</NavItem>
-                    <NavItem>About</NavItem>
-                    <NavItem>Contact</NavItem>
+                    <NavItem to='about' duration='800' smooth='true' offset={-document.documentElement.clientHeight * 0.1}>About</NavItem>
+                    <NavItem to='contact' duration='800' smooth='true' offset={-document.documentElement.clientHeight * 0.1}>Contact</NavItem>
+
                </NavBar>
             </HeaderWarp>
         
