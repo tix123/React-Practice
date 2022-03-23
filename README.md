@@ -8,9 +8,9 @@
 3. Run 'npm start' to start this project.
 
 ## PC screen
-<img src="https://github.com/tix123/React-Practice/blob/master/Screenshots/screenshot_pc.jpg">
+<img src="https://github.com/tix123/RWD-Practice-React/blob/master/Screenshots/screenshot_pc.jpg">
 
 ## Mobile screen
-<img src="https://github.com/tix123/React-Practice/blob/master/Screenshots/screenshot_mobile.jpg">
+<img src="https://github.com/tix123/RWD-Practice-React/blob/master/Screenshots/screenshot_mobile.jpg">
 
 
