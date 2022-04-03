@@ -1,6 +1,6 @@
 # Responsive Web Design with React
 
-## To run this project:
+## How to run this project
 1. Download and install node.js from https://nodejs.org/
 
 2. In a terminal, move to the project folder and run 'npm install' to install node modules.
