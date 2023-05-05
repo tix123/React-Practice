@@ -43,11 +43,11 @@ weight: 50%;
 `;
 
 export const NavItem = styled(Link)`
-font-size: 1.5vw;
+font-size: 2vw;
 margin-right: 2vw;
 cursor: pointer;
 
-@media screen and (max-width: 800px) { font-size: 1.5vh; }
+@media screen and (max-width: 800px) { font-size: 2vh; }
 `;
 
 

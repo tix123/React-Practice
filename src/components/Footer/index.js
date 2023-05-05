@@ -3,7 +3,7 @@ import { FooterWarp } from  './FooterElements'
 const Footer = () => {
     return(
         <FooterWarp>
-        Copyright 2021 © ABC Company Ltd.
+        COPYRIGHT 2021 © LOGISTICS COMPANY LTD.
         </FooterWarp>
     )
 }

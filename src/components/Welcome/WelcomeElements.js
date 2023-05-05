@@ -19,11 +19,11 @@ align-items: center;
 
 export const BusinessTitle = styled.div`
 position: absolute;
-top: 25vw;
+top: 20vw;
 //left: 15%;
 //margin-top: 25vw;
 color: #000;
-font-size: 8vw;
+font-size: 7vw;
 font-family: "Arial Black";
 
 @media screen and (max-width: 800px) { font-size: 7vh; top: 25vh; text-align: center}
@@ -36,6 +36,7 @@ top: 35vw;
 //margin-top: 1vw;
 color: #000;
 font-size: 4vw;
+font-weight: bold;
 
 @media screen and (max-width: 800px) { font-size: 4vh; top: 50vh; text-align: center}
 `;

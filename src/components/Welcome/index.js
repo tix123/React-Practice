@@ -24,10 +24,10 @@ const WelcomeImage = () => {
 
 const Welcome = () => {
     return(
-        <WelcomeWarp>
+        <WelcomeWarp id="top">
             <WelcomeImage src={WelcomePicture}></WelcomeImage>
             <WelcomeImageMobile src={WelcomePictureMobile}></WelcomeImageMobile>
-            <BusinessTitle>ABC COMPANY</BusinessTitle>
+            <BusinessTitle>LOGISTICS COMPANY</BusinessTitle>
             <BusinessSlogan>Your Gateway To The World</BusinessSlogan>
             
         </WelcomeWarp>

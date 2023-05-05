@@ -1,5 +1,5 @@
 import { FcCloseUpMode } from 'react-icons/fc';
-import { animateScroll as scroll } from 'react-scroll';
+// import { animateScroll as scroll } from 'react-scroll';
 
 import {
     HeaderWarp,
@@ -10,27 +10,25 @@ import {
 
 } from './HeaderElements';
 
-const toTop = () => {
-    scroll.scrollToTop();
-  };
-
+// const toTop = () => {
+//     scroll.scrollToTop();
+// };
 
 
 const Header = () => {
     return (
-            <HeaderWarp>
-                <Brand onClick={toTop}>
-                    <FcCloseUpMode style={{ fontSize: '5vw' }} />
-                    <BusinessName>ABC COMPANY</BusinessName>
-                </Brand>
-                <NavBar>
-                    <NavItem onClick={toTop}>Home</NavItem>
-                    <NavItem to='about' duration='800' smooth='true' offset={-document.documentElement.clientHeight * 0.1}>About</NavItem>
-                    <NavItem to='contact' duration='800' smooth='true' offset={-document.documentElement.clientHeight * 0.1}>Contact</NavItem>
+        <HeaderWarp>
+            <Brand to="top" smooth='true'>
+                <FcCloseUpMode style={{ fontSize: '5vw' }} />
+                <BusinessName>LOGISTICS COMPANY</BusinessName>
+            </Brand>
+            <NavBar>
+                <NavItem to="top" smooth='true'>Home</NavItem>
+                <NavItem to='about' smooth='true' offset={-document.documentElement.clientHeight * 0.1}>About</NavItem>
+                <NavItem to='contact' smooth='true' offset={-document.documentElement.clientHeight * 0.1}>Contact</NavItem>
+            </NavBar>
+        </HeaderWarp>
 
-               </NavBar>
-            </HeaderWarp>
-        
     )
 }
 
