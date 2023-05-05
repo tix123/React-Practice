@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.a2554574.chunk.css",
-    "main.js": "/homepage/static/js/main.d13a0732.chunk.js",
-    "main.js.map": "/homepage/static/js/main.d13a0732.chunk.js.map",
-    "runtime-main.js": "/homepage/static/js/runtime-main.84518b3a.js",
-    "runtime-main.js.map": "/homepage/static/js/runtime-main.84518b3a.js.map",
-    "static/js/2.786d3791.chunk.js": "/homepage/static/js/2.786d3791.chunk.js",
-    "static/js/2.786d3791.chunk.js.map": "/homepage/static/js/2.786d3791.chunk.js.map",
-    "index.html": "/homepage/index.html",
-    "static/css/main.a2554574.chunk.css.map": "/homepage/static/css/main.a2554574.chunk.css.map",
-    "static/js/2.786d3791.chunk.js.LICENSE.txt": "/homepage/static/js/2.786d3791.chunk.js.LICENSE.txt",
-    "static/media/AboutPicture.283ad667.jpg": "/homepage/static/media/AboutPicture.283ad667.jpg",
-    "static/media/BusinessMap.308ef89a.jpg": "/homepage/static/media/BusinessMap.308ef89a.jpg",
-    "static/media/WelcomePicture.55d2a1eb.jpg": "/homepage/static/media/WelcomePicture.55d2a1eb.jpg",
-    "static/media/WelcomePictureMobile.d9cb9c75.jpg": "/homepage/static/media/WelcomePictureMobile.d9cb9c75.jpg"
+    "main.css": "/logistics-company/static/css/main.a2554574.chunk.css",
+    "main.js": "/logistics-company/static/js/main.d13a0732.chunk.js",
+    "main.js.map": "/logistics-company/static/js/main.d13a0732.chunk.js.map",
+    "runtime-main.js": "/logistics-company/static/js/runtime-main.6ed5610c.js",
+    "runtime-main.js.map": "/logistics-company/static/js/runtime-main.6ed5610c.js.map",
+    "static/js/2.d791ab6e.chunk.js": "/logistics-company/static/js/2.d791ab6e.chunk.js",
+    "static/js/2.d791ab6e.chunk.js.map": "/logistics-company/static/js/2.d791ab6e.chunk.js.map",
+    "index.html": "/logistics-company/index.html",
+    "static/css/main.a2554574.chunk.css.map": "/logistics-company/static/css/main.a2554574.chunk.css.map",
+    "static/js/2.d791ab6e.chunk.js.LICENSE.txt": "/logistics-company/static/js/2.d791ab6e.chunk.js.LICENSE.txt",
+    "static/media/AboutPicture.283ad667.jpg": "/logistics-company/static/media/AboutPicture.283ad667.jpg",
+    "static/media/BusinessMap.308ef89a.jpg": "/logistics-company/static/media/BusinessMap.308ef89a.jpg",
+    "static/media/WelcomePicture.55d2a1eb.jpg": "/logistics-company/static/media/WelcomePicture.55d2a1eb.jpg",
+    "static/media/WelcomePictureMobile.d9cb9c75.jpg": "/logistics-company/static/media/WelcomePictureMobile.d9cb9c75.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.84518b3a.js",
-    "static/js/2.786d3791.chunk.js",
+    "static/js/runtime-main.6ed5610c.js",
+    "static/js/2.d791ab6e.chunk.js",
     "static/css/main.a2554574.chunk.css",
     "static/js/main.d13a0732.chunk.js"
   ]
