@@ -1,4 +1,5 @@
-# Responsive Web Design with React
+## View this project online
+1. This project has been deployed on the Github Pages. Visit https://tix123.github.io/logistics-company/
 
 ## How to run this project
 1. Download and install node.js from https://nodejs.org/
